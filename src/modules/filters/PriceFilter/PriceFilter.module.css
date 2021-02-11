@@ -1,0 +1,19 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.title {
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.item:first-of-type {
+  padding-bottom: 10px;
+}
+
+.input {
+  width: 70%;
+  margin-left: 5px;
+}

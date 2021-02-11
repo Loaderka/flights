@@ -1,0 +1,40 @@
+.container {
+  min-width: 100%;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0087c9;
+  padding: 5px 10px;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.logo {
+}
+
+.btnChoose {
+  padding: 10px 0;
+  width: 100%;
+  cursor: pointer;
+  background-color: #ffb168;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}

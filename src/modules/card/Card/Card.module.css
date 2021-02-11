@@ -1,0 +1,99 @@
+
+.card {
+}
+
+.card + .card {
+  border-top: 2px solid #66ccff;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px;
+  margin: 0 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.departure {
+  text-transform: uppercase;
+}
+
+.departure::after {
+  content: "\2192";
+  color: #66ccff;
+  margin-right: 10px;
+}
+
+.arrival {
+  text-transform: uppercase;
+}
+
+.airportId {
+  color: #66ccff;
+  margin: 0 10px;
+}
+
+.timing {
+  font-size: 18px;
+  padding: 15px 25px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 16px;
+  color: #66ccff;
+  margin: 0 5px;
+}
+
+.duration {
+  position: relative;
+}
+
+.duration::before {
+  position: absolute;
+  left: -20px;
+  top: 1px;
+  content: '';
+  height: 16px;
+  width: 16px;
+  background-image: url('./clock.svg');
+}
+
+.transfers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffb168;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.transfers::before {
+  content: "";
+  width: 35%;
+  border-bottom: 2px solid #e5e5e5;
+  margin-right: 15px;
+}
+
+.transfers::after {
+  content: "";
+  width: 35%;
+  border-bottom: 2px solid #e5e5e5;
+  margin-left: 15px;
+}
+
+.noTransfers {
+  margin: 0 5%;
+  border-bottom: 2px solid #e5e5e5;
+  margin-top: 10px;
+}
+
+.airline {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}

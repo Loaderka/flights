@@ -1,0 +1,19 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.title {
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin: 0 5px 0 0;
+}
